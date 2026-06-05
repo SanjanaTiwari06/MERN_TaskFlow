@@ -147,7 +147,7 @@ export const TaskRow = ({ task, onToggle, onEdit, onDelete }) => {
         <div style={{ display: 'flex', gap: 8, marginTop: 8, flexWrap: 'wrap', alignItems: 'center' }}>
           <span style={{ padding: '3px 9px', borderRadius: 20, fontSize: 11, fontWeight: 600,
             background: done ? 'rgba(34,197,94,0.1)' : 'rgba(245,158,11,0.1)',
-            color: done ? '#22c55e' : '#f59e0b' }}>{done ? '✅ Completed' : '⏳ Pending'}</span>
+            color: done ? '#22c55e' : '#f59e0b' }}>{done ? ' Completed' : 'Pending'}</span>
           <span style={{ padding: '3px 9px', borderRadius: 20, fontSize: 11, fontWeight: 600,
             background: `${priorityColor}18`, color: priorityColor }}>
             ▲ {task.priority.charAt(0).toUpperCase() + task.priority.slice(1)}</span>

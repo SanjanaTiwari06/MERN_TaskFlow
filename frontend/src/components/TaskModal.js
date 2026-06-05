@@ -99,8 +99,8 @@ const TaskModal = ({ isOpen, onClose, task, onSave }) => {
             <div>
               <label style={lbl}>Status</label>
               <select style={inp} value={form.status} onChange={(e) => setForm({ ...form, status: e.target.value })}>
-                <option value="pending">⏳ Pending</option>
-                <option value="completed">✅ Completed</option>
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
               </select>
             </div>
           </div>
